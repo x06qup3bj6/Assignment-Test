@@ -1,0 +1,41 @@
+from IPython.display import HTML
+
+# 在最上方創建HTML部分
+html_top = """
+<html>
+<head>
+<title>My HTML Page</title>
+<style>
+/* 在這裡添加CSS樣式 */
+</style>
+</head>
+<body>
+<h1>Get your assingment now.</h1>
+<p>Answer some questions to get the result.</p>
+</body>
+</html>
+"""
+
+
+
+
+# 在最下方創建HTML部分
+html_bottom = """
+<footer>
+<hr>
+<p>by Weeeee</p>
+</footer>
+"""
+
+# 顯示最上方的HTML部分
+display(HTML(html_top))
+
+# 在這裡放置您的程式碼和互動元素
+
+print("yayayyay")
+a=input()
+print(a,"hay")
+
+
+# 顯示最下方的HTML部分
+display(HTML(html_bottom))
